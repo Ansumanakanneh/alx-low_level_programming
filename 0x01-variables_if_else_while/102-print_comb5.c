@@ -17,8 +17,8 @@ int main(void)
 		{
 			if (i == 1 && j == 0)
 			{
-			printf("%02d %02d", i, j);
-			if (j < 99)
+				printf("%02d %02d", i , j);
+				if (j < 99)
 				{
 					putchar(',');
 					putchar(' ');
