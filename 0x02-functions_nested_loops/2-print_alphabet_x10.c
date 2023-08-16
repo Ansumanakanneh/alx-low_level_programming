@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet_x10 - prints alphabet  in lowercase 10x
- *
  * Return: 0 always
  */
 
@@ -15,6 +14,6 @@ void print_alphabet_x10(void)
 	{
 		for (j = 'a' ; j <= 'z' ; j++)
 			_putchar(j);
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
