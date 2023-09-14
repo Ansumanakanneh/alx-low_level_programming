@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_strings - function that prints strings, followed by a new line.
+ * print_strings - prints strings, followed by a new line.
  * @separator: separators between strings
  *@n: number of parameters
  */
@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		char *x = va_arg(num, char *);
 
 		if (x == NULL)
-			printf("(nill)");
+			printf("(nil)");
 		else
 			printf("%s", x);
 		if (separator != NULL && a < n - 1)
